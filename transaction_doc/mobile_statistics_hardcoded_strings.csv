@@ -1,0 +1,131 @@
+文件的类名,硬编码文字的行号,硬编码文字的说明,硬编码的文字,字符串常量建议（英文）
+MobileStatisticsScreen,22,数据统计页面标题,数据统计,dataStatisticsPageTitle
+MobileStatisticsScreen,46,暂无投资组合提示,暂无投资组合,noPortfolioAvailable
+MobileStatisticsScreen,55,请先创建投资组合提示,请先创建一个投资组合查看统计分析,pleaseCreatePortfolioToViewStatistics
+MobileAssetTrendFullscreenChart,110,资产趋势全屏视图标题,资产趋势 - 全屏视图,assetTrendFullscreenViewTitle
+MobileAssetTrendFullscreenChart,232,投资组合总值图例,投资组合总值,portfolioTotalValueLegend
+MobileAssetTrendFullscreenChart,233,持仓总成本图例,持仓总成本,totalPositionCostLegend
+MobileAssetTrendFullscreenChart,234,持仓总市值图例,持仓总市值,totalPositionMarketValueLegend
+MobileAssetTrendFullscreenChart,273,加载数据失败提示,加载数据失败,loadDataFailedMessage
+MobileAssetTrendFullscreenChart,285,重试按钮文本,重试,retryButton
+MobileAssetTrendFullscreenChart,301,暂无数据提示,暂无数据,noDataMessage
+MobileAssetTrendFullscreenChart,306,无资产数据描述,所选时间范围内无资产数据,noAssetDataInSelectedTimeRange
+MobileTradingFrequencyChart,35,交易频率图表标题格式,交易频率 (${controller.getTimeRangeTypeName()}),tradingFrequencyChartTitleFormat
+MobileTradingFrequencyChart,44,交易频率图表提示,显示所选时间范围内的交易次数统计,tradingFrequencyChartTooltip
+MobileTradingFrequencyChart,115,总交易统计标签,总交易,totalTradesLabel
+MobileTradingFrequencyChart,121,买入交易统计标签,买入,buyTradesLabel
+MobileTradingFrequencyChart,127,卖出交易统计标签,卖出,sellTradesLabel
+MobileTradingFrequencyChart,195,买入交易提示格式,买入: ${barData.buyCount}笔,buyTradesHintFormat
+MobileTradingFrequencyChart,197,卖出交易提示格式,卖出: ${barData.sellCount}笔,sellTradesHintFormat
+MobileTradingFrequencyChart,292,买入交易图例,买入交易,buyTradesLegend
+MobileTradingFrequencyChart,293,卖出交易图例,卖出交易,sellTradesLegend
+MobileTradingFrequencyChart,333,加载数据失败提示,加载数据失败,loadDataFailedMessage
+MobileTradingFrequencyChart,339,重试按钮文本,重试,retryButton
+MobileTradingFrequencyChart,357,暂无交易频率数据提示,暂无交易频率数据,noTradingFrequencyDataMessage
+MobileTradingFrequencyChart,359,无交易记录描述,所选时间范围内无交易记录,noTradingRecordsInSelectedTimeRange
+MobileProfitTrendLineChart,36,收益走势图表标题,收益走势,profitTrendChartTitle
+MobileProfitTrendLineChart,62,收益走势图表提示,显示所选时间范围内的盈亏变化趋势,profitTrendChartTooltip
+MobileProfitTrendLineChart,171,总盈亏图例,总盈亏,totalProfitLossLegend
+MobileProfitTrendLineChart,172,未实现盈亏图例,未实现盈亏,unrealizedProfitLossLegend
+MobileProfitTrendLineChart,173,已实现盈亏图例,已实现盈亏,realizedProfitLossLegend
+MobileProfitTrendLineChart,213,加载数据失败提示,加载数据失败,loadDataFailedMessage
+MobileProfitTrendLineChart,219,重试按钮文本,重试,retryButton
+MobileProfitTrendLineChart,237,暂无数据提示,暂无数据,noDataMessage
+MobileProfitTrendLineChart,239,无收益数据描述,所选时间范围内无收益数据,noProfitDataInSelectedTimeRange
+MobileSnapshotHeatmap,42,快照历史点阵标题,快照历史点阵,snapshotHistoryHeatmapTitle
+MobileSnapshotHeatmap,51,年份显示格式,${controller.currentYear.value}年,yearDisplayFormat
+MobileSnapshotHeatmap,59,快照历史点阵提示,显示每日快照记录，绿色表示有快照，灰色表示无快照,snapshotHistoryHeatmapTooltip
+MobileSnapshotHeatmap,168,月份显示格式,${month}月,monthDisplayFormat
+MobileSnapshotHeatmap,309,快照日期提示格式,DateFormat('yyyy-MM-dd').format(date) + (hasSnapshot ? ' (有快照)' : ' (无快照)'),snapshotDateTooltipFormat
+MobileWinRatePieChart,42,交易胜率分布标题,交易胜率分布,tradingWinRateDistributionTitle
+MobileWinRatePieChart,51,交易胜率分布提示,显示所选时间范围内的交易胜率变化情况,tradingWinRateDistributionTooltip
+MobileWinRatePieChart,92,加载失败提示,加载失败,loadFailedMessage
+MobileWinRatePieChart,98,重试按钮文本,重试,retryButton
+MobileWinRatePieChart,116,暂无交易数据提示,暂无交易数据,noTradingDataMessage
+MobileWinRatePieChart,156,无交易记录提示,无交易记录,noTradingRecordsMessage
+MobileWinRatePieChart,218,盈利交易统计格式,盈利交易: ${data.winTrades}笔,profitableTradesStatFormat
+MobileWinRatePieChart,220,亏损交易统计格式,亏损交易: ${data.lossTrades}笔,lossTradesStatFormat
+MobileWinRatePieChart,222,总交易统计格式,总交易: ${data.totalTrades}笔,totalTradesStatFormat
+MobileWinRatePieChart,239,胜率显示格式,胜率 ${data.winRate.toStringAsFixed(1)}%,winRateDisplayFormat
+MobileFearGreedProfitChart,35,恐惧贪婪指数盈亏比率标题,恐惧贪婪指数盈亏比率,fearGreedProfitRatioTitle
+MobileFearGreedProfitChart,44,恐惧贪婪指数盈亏比率提示,显示所选时间范围内恐惧贪婪指数与交易盈亏关系,fearGreedProfitRatioTooltip
+MobileFearGreedProfitChart,199,盈利提示格式,盈利: ¥${item.netProfitLoss.toStringAsFixed(2)},profitHintFormat
+MobileFearGreedProfitChart,202,亏损提示格式,亏损: ¥${item.netProfitLoss.abs().toStringAsFixed(2)},lossHintFormat
+MobileFearGreedProfitChart,205,盈亏平衡提示,盈亏: ¥0.00,breakEvenHint
+MobileFearGreedProfitChart,245,交易笔数格式,${item.totalTrades}笔,tradesCountFormat
+MobileFearGreedProfitChart,267,总盈利提示格式,总盈利: ¥${totalNetProfitLoss.toStringAsFixed(2)},totalProfitHintFormat
+MobileFearGreedProfitChart,270,总亏损提示格式,总亏损: ¥${totalNetProfitLoss.abs().toStringAsFixed(2)},totalLossHintFormat
+MobileFearGreedProfitChart,273,总盈亏平衡提示,总盈亏: ¥0.00,totalBreakEvenHint
+MobileFearGreedProfitChart,287,总览统计标题,总览统计,overviewStatisticsTitle
+MobileFearGreedProfitChart,298,总交易次数标签,总交易次数,totalTradesCountLabel
+MobileFearGreedProfitChart,305,总交易次数格式,${controller.getTotalVisibleTrades()}笔,totalTradesCountFormat
+MobileFearGreedProfitChart,327,盈亏状态格式,totalNetProfitLoss != 0 ? (totalNetProfitLoss > 0 ? '盈利' : '亏损') : '持平',profitLossStatusFormat
+MobileFearGreedProfitChart,352,加载数据失败提示,加载数据失败,loadDataFailedMessage
+MobileFearGreedProfitChart,358,重试按钮文本,重试,retryButton
+MobileFearGreedProfitChart,376,暂无数据提示,暂无数据,noDataMessage
+MobileFearGreedProfitChart,378,无交易记录描述,所选时间范围内无交易记录,noTradingRecordsInSelectedTimeRange
+MobileSnapshotEditPage,38,修改快照标题格式,修改 ${controller.getFormattedDate()} 快照,editSnapshotTitleFormat
+MobileSnapshotEditPage,57,保存按钮文本,保存,saveButton
+MobileSnapshotEditPage,82,资产状况分组标题,资产状况,assetStatusSectionTitle
+MobileSnapshotEditPage,91,盈亏数据分组标题,盈亏数据,profitLossDataSectionTitle
+MobileSnapshotEditPage,100,交易次数统计分组标题,交易次数统计,tradingCountStatisticsSectionTitle
+MobileSnapshotEditPage,115,已修改字段提示格式,已修改 ${controller.changedFields.length} 个字段,modifiedFieldsCountFormat
+MobileSnapshotEditPage,149,自动计算相关字段开关标题,自动计算相关字段,autoCalculateRelatedFieldsTitle
+MobileSnapshotEditPage,158,自动计算相关字段描述,开启后将自动计算相关联的字段值,autoCalculateRelatedFieldsDescription
+MobileSnapshotEditPage,225,累计入金输入标签,累计入金,cumulativeDepositInputLabel
+MobileSnapshotEditPage,235,累计出金输入标签,累计出金,cumulativeWithdrawalInputLabel
+MobileSnapshotEditPage,248,净入金金额输入标签,净入金金额,netDepositAmountInputLabel
+MobileSnapshotEditPage,262,总持仓成本输入标签,总持仓成本,totalPositionCostInputLabel
+MobileSnapshotEditPage,272,总市值输入标签,总市值,totalMarketValueInputLabel
+MobileSnapshotEditPage,285,现金余额输入标签,现金余额,cashBalanceInputLabel
+MobileSnapshotEditPage,298,总资产输入标签,总资产,totalAssetsInputLabel
+MobileSnapshotEditPage,309,收益率输入标签,收益率,returnRateInputLabel
+MobileSnapshotEditPage,333,未实现盈亏输入标签,未实现盈亏,unrealizedProfitLossInputLabel
+MobileSnapshotEditPage,344,已实现盈亏输入标签,已实现盈亏,realizedProfitLossInputLabel
+MobileSnapshotEditPage,357,总盈亏输入标签,总盈亏,totalProfitLossInputLabel
+MobileSnapshotEditPage,371,盈利金额输入标签,盈利金额,profitAmountInputLabel
+MobileSnapshotEditPage,381,亏损金额输入标签,亏损金额,lossAmountInputLabel
+MobileSnapshotEditPage,401,盈利次数输入标签,盈利次数,profitCountInputLabel
+MobileSnapshotEditPage,415,亏损次数输入标签,亏损次数,lossCountInputLabel
+MobileSnapshotEditPage,447,字段更新警告提示,注意：更新某些字段可能会导致与其他字段的计算结果不一致，建议同时更新相关联的字段或开启自动计算功能。,fieldUpdateWarningMessage
+MobileSnapshotEditPage,513,不能为空验证,不能为空,cannotBeEmptyValidation
+MobileSnapshotEditPage,520,请输入有效数字验证,请输入有效的数字,pleaseEnterValidNumberValidation
+MobileSnapshotEditPage,527,不能为空整数验证,不能为空,cannotBeEmptyIntegerValidation
+MobileSnapshotEditPage,531,请输入有效整数验证,请输入有效的整数,pleaseEnterValidIntegerValidation
+MobileProfitLossPieChart,43,盈亏金额分布标题,盈亏金额分布,profitLossAmountDistributionTitle
+MobileProfitLossPieChart,52,盈亏金额分布提示,显示所选时间范围内的盈亏比例变化情况,profitLossAmountDistributionTooltip
+MobileProfitLossPieChart,93,加载失败提示,加载失败,loadFailedMessage
+MobileProfitLossPieChart,99,重试按钮文本,重试,retryButton
+MobileProfitLossPieChart,117,暂无盈亏数据提示,暂无盈亏数据,noProfitLossDataMessage
+MobileProfitLossPieChart,157,无盈亏记录提示,无盈亏记录,noProfitLossRecordsMessage
+MobileProfitLossPieChart,219,盈利金额统计格式,盈利金额: ¥${data.profitAmount.toStringAsFixed(2)},profitAmountStatFormat
+MobileProfitLossPieChart,221,亏损金额统计格式,亏损金额: ¥${data.lossAmount.toStringAsFixed(2)},lossAmountStatFormat
+MobileProfitLossPieChart,242,净盈亏显示格式,净${data.netProfit >= 0 ? "盈利" : "亏损"},netProfitLossDisplayFormat
+MobilePortfolioAllocationPieChart,44,持仓占比分布标题,持仓占比分布,positionAllocationDistributionTitle
+MobilePortfolioAllocationPieChart,53,持仓占比分布提示,持仓占比只显示选取区间的最新阶段的占比数据,positionAllocationDistributionTooltip
+MobilePortfolioAllocationPieChart,94,加载失败提示,加载失败,loadFailedMessage
+MobilePortfolioAllocationPieChart,100,重试按钮文本,重试,retryButton
+MobilePortfolioAllocationPieChart,118,暂无持仓数据提示,暂无持仓数据,noPositionDataMessage
+MobilePortfolioAllocationPieChart,260,总市值标签,总市值,totalMarketValueLabel
+MobileAssetTrendLineChart,37,资产趋势图表标题,资产趋势,assetTrendChartTitle
+MobileAssetTrendLineChart,63,资产趋势图表提示,显示所选时间范围内的资产变化趋势,assetTrendChartTooltip
+MobileAssetTrendLineChart,172,投资组合总值图例,投资组合总值,portfolioTotalValueLegend
+MobileAssetTrendLineChart,173,持仓总成本图例,持仓总成本,totalPositionCostLegend
+MobileAssetTrendLineChart,174,持仓总市值图例,持仓总市值,totalPositionMarketValueLegend
+MobileAssetTrendLineChart,214,加载数据失败提示,加载数据失败,loadDataFailedMessage
+MobileAssetTrendLineChart,220,重试按钮文本,重试,retryButton
+MobileAssetTrendLineChart,238,暂无数据提示,暂无数据,noDataMessage
+MobileAssetTrendLineChart,240,无资产数据描述,所选时间范围内无资产数据,noAssetDataInSelectedTimeRange
+MobileTimeRangeFilter,44,时间范围选择标题,时间范围选择,timeRangeSelectionTitle
+MobileTimeRangeFilter,60,修改历史快照提示,修改历史快照,editHistoricalSnapshotTooltip
+MobileTimeRangeFilter,98,最近7天选项,最近7天,last7DaysOption
+MobileTimeRangeFilter,99,最近30天选项,最近30天,last30DaysOption
+MobileTimeRangeFilter,100,最近90天选项,最近90天,last90DaysOption
+MobileTimeRangeFilter,101,最近1年选项,最近1年,last1YearOption
+MobileTimeRangeFilter,210,选择统计时间范围帮助文本,选择统计时间范围,selectStatisticsTimeRangeHelpText
+MobileTimeRangeFilter,211,取消按钮文本,取消,cancelButton
+MobileTimeRangeFilter,212,确定按钮文本,确定,confirmButton
+MobileTimeRangeFilter,213,开始日期字段标签,开始日期,startDateFieldLabel
+MobileTimeRangeFilter,214,结束日期字段标签,结束日期,endDateFieldLabel
+MobileTimeRangeFilter,230,选择需要修改快照日期帮助文本,选择需要修改的快照日期,selectSnapshotDateToEditHelpText
+MobileTimeRangeFilter,231,确定按钮文本,确定,confirmButton

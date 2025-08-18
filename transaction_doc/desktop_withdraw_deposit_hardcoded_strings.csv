@@ -1,0 +1,73 @@
+文件的类名,硬编码文字的行号,硬编码文字的说明,硬编码的文字,字符串常量建议（英文）
+WithdrawDepositScreen,15,页面标题,资金操作,fundOperationPageTitle
+DepositWithdrawForm,37,资金操作表单标题,资金操作,fundOperationFormTitle
+DepositWithdrawForm,84,入金按钮文本,入金,depositButton
+DepositWithdrawForm,103,出金按钮文本,出金,withdrawButton
+DepositWithdrawForm,130,入金金额标签,入金金额,depositAmountLabel
+DepositWithdrawForm,130,出金金额标签,出金金额,withdrawAmountLabel
+DepositWithdrawForm,150,请输入金额验证错误,请输入金额,pleaseEnterAmountValidationError
+DepositWithdrawForm,153,请输入有效数字验证错误,请输入有效数字,pleaseEnterValidNumberValidationError
+DepositWithdrawForm,156,金额必须大于0验证错误,金额必须大于0,amountMustBeGreaterThanZeroValidationError
+DepositWithdrawForm,169,入出金日期标签,入出金日期,depositWithdrawDateLabel
+DepositWithdrawForm,183,备注标签,备注,remarksLabel
+DepositWithdrawForm,184,备注提示,可选：添加备注说明此次操作,remarksHint
+DepositWithdrawForm,200,提交按钮文本,提交,submitButton
+SummaryWidget,67,请选择统计货币提示,请选择统计货币,pleaseSelectStatisticsCurrencyMessage
+SummaryWidget,100,所有投资组合标题,所有投资组合,allPortfoliosTitle
+SummaryWidget,110,统计货币显示格式,统计货币: ${PortfolioUtils.getCurrencyLabel(statCurrency)},statisticsCurrencyDisplayFormat
+SummaryWidget,124,合计总净入金标签,合计总净入金,totalNetDepositLabel
+SummaryWidget,150,加载投资组合信息提示,加载投资组合信息...,loadingPortfolioInfoMessage
+SummaryWidget,182,币种显示格式,币种: ${PortfolioUtils.getCurrencyLabel(selectedPortfolio.currency)},currencyDisplayFormat
+SummaryWidget,196,总净入金标签,总净入金,totalNetDepositLabel
+SummaryWidget,228,汇率获取失败提示,汇率获取失败,exchangeRateFailedMessage
+SummaryWidget,266,统计所有组合标签,统计所有组合,statisticsAllPortfoliosLabel
+SummaryWidget,283,统计货币选择标签,统计货币,statisticsCurrencySelectionLabel
+SummaryWidget,337,请选择投资组合设置现金比例提示,请先选择一个投资组合以设置现金比例,pleaseSelectPortfolioForCashRatioMessage
+SummaryWidget,343,请选择统计货币提示,请先选择统计货币,pleaseSelectStatisticsCurrencyMessage
+SummaryWidget,378,目标现金比例标签,目标现金比例,targetCashRatioLabel
+SummaryWidget,387,设置期望现金占比提示,设置期望的现金占比,setCashRatioHint
+SummaryWidget,400,当前现金为负提示,当前: 0% (现金为负),currentCashNegativeText
+SummaryWidget,402,当前无持仓提示,当前: 100% (无持仓),currentNoPositionText
+SummaryWidget,403,当前现金比例格式,当前: ${(displayCashRatio * 100).toInt()}%,currentCashRatioFormat
+SummaryWidget,448,保存按钮文本,保存,saveButton
+SummaryWidget,485,现金余额异常标题,现金余额异常,cashBalanceAbnormalTitle
+SummaryWidget,494,现金余额异常描述,如果现金余额为负数，请检查入出金和持仓的价值是否合理。,cashBalanceAbnormalDescription
+SummaryWidget,499,负数现金余额可能原因,负数现金余额可能表示：入金记录不完整、持仓价值计算有误、出金记录异常,negativeCashBalanceReasons
+SummaryWidget,532,当前总资产达到目标比例提示,当前总资产为 $statCurrencySymbol ${totalAssetsValue.toStringAsFixed(2)}， 已经达到目标现金比例,currentAssetsReachedTargetRatioMessage
+SummaryWidget,533,建议资金操作格式,当前总资产为 $statCurrencySymbol ${totalAssetsValue.toStringAsFixed(2)}， ${needsWithdrawal ? '建议取出资金或增加等值的持仓' : '建议存入资金或减少等值的持仓'},suggestedFundOperationFormat
+SummaryWidget,547,当前现金比例已接近目标提示,当前现金比例已接近目标,currentCashRatioNearTargetMessage
+SummaryWidget,549,可取出现金建议格式,可取出约 $statCurrencySymbol ${cashDifference.abs().toStringAsFixed(2)} 现金或者增加等值的持仓,canWithdrawCashSuggestionFormat
+SummaryWidget,550,需存入现金建议格式,需存入约 $statCurrencySymbol ${cashDifference.abs().toStringAsFixed(2)} 现金或者减少等值的持仓,needDepositCashSuggestionFormat
+SummaryWidget,566,资金分配标题,资金分配 (基于当前比例),fundAllocationTitle
+SummaryWidget,594,现金仓位100%格式,现金仓位 $statCurrencySymbol ${cashAmount.toStringAsFixed(2)} (100%),cashPosition100PercentFormat
+SummaryWidget,595,现金仓位格式,现金仓位 $statCurrencySymbol ${cashAmount.toStringAsFixed(2)},cashPositionFormat
+SummaryWidget,608,持仓仓位100%格式,持仓仓位 $statCurrencySymbol ${investedAmount.toStringAsFixed(2)} (100%),investedPosition100PercentFormat
+SummaryWidget,609,持仓仓位格式,持仓仓位 $statCurrencySymbol ${investedAmount.toStringAsFixed(2)},investedPositionFormat
+SummaryWidget,639,目标标签,目标,targetLabel
+SummaryWidget,654,现金目标格式,现金: $statCurrencySymbol ${cashAmount.toStringAsFixed(2)},cashTargetFormat
+SummaryWidget,662,持仓目标格式,持仓: $statCurrencySymbol ${investedAmount.toStringAsFixed(2)},investedTargetFormat
+SummaryWidget,715,无法显示资金分配标题,无法显示资金分配,cannotDisplayFundAllocationTitle
+SummaryWidget,727,无入金记录或持仓信息提示,您还没有入金记录或持仓信息。\n添加入金记录来开始追踪您的投资组合资金分配。,noDepositRecordOrPositionInfoMessage
+TransactionHistoryList,69,历史记录标题,历史记录,historyRecordsTitle
+TransactionHistoryList,94,显示所有投资组合过滤文本,显示: 所有投资组合,showAllPortfoliosFilterText
+TransactionHistoryList,95,显示投资组合过滤格式,显示: ${_getSelectedPortfolioName()},showPortfolioFilterFormat
+TransactionHistoryList,119,过滤选项工具提示,过滤选项,filterOptionsTooltip
+TransactionHistoryList,169,排序选项工具提示,排序选项,sortOptionsTooltip
+TransactionHistoryList,263,暂无资金操作记录提示,暂无资金操作记录,noFundOperationRecordsMessage
+TransactionHistoryList,264,该投资组合暂无资金操作记录提示,该投资组合暂无资金操作记录,thisPortfolioNoFundOperationRecordsMessage
+TransactionHistoryList,276,刷新按钮文本,刷新,refreshButton
+TransactionHistoryList,370,汇率获取失败提示,汇率获取失败,exchangeRateFailedMessage
+TransactionHistoryList,381,编辑此记录工具提示,编辑此记录,editThisRecordTooltip
+TransactionHistoryList,390,删除此记录工具提示,删除此记录,deleteThisRecordTooltip
+TransactionHistoryList,417,编辑入金记录对话框标题,编辑入金记录,editDepositRecordDialogTitle
+TransactionHistoryList,417,编辑出金记录对话框标题,编辑出金记录,editWithdrawRecordDialogTitle
+TransactionHistoryList,427,交易日期标签,交易日期,transactionDateLabel
+TransactionHistoryList,453,金额标签,金额,amountLabel
+TransactionHistoryList,466,备注标签,备注,remarksLabel
+TransactionHistoryList,477,取消按钮文本,取消,cancelButton
+TransactionHistoryList,484,保存按钮文本,保存,saveButton
+TransactionHistoryList,490,请输入有效金额验证错误,请输入有效的金额,pleaseEnterValidAmountValidationError
+TransactionHistoryList,526,确认删除对话框标题,确认删除,confirmDeleteDialogTitle
+TransactionHistoryList,527,确认删除对话框内容,您确定要删除这条记录吗？此操作无法撤销。,confirmDeleteDialogContent
+TransactionHistoryList,530,取消按钮文本,取消,cancelButton
+TransactionHistoryList,537,删除按钮文本,删除,deleteButton

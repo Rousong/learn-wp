@@ -1,0 +1,140 @@
+文件的类名,硬编码文字的行号,硬编码文字的说明,硬编码的文字,字符串常量建议（英文）
+SettingsScreen,10,页面标题,设置,settingsPageTitle
+SettingsScreen,71,系统设置标题,系统设置,systemSettingsTitle
+SettingsScreen,185,设置选项描述格式,管理您的${selectedItem.title}选项,manageSettingsOptionFormat
+AccountSettingsScreen,25,会员计划分组标题,会员计划,membershipPlanSectionTitle
+AccountSettingsScreen,70,登录方式分组标题,登录方式,loginMethodSectionTitle
+AccountSettingsScreen,107,登录方式显示格式,登录方式: ${controller.loginMethod},loginMethodDisplayFormat
+AccountSettingsScreen,113,会员类型显示格式,会员类型: ${controller.membershipDisplayName},membershipTypeDisplayFormat
+AccountSettingsScreen,129,编辑信息按钮文本,编辑信息,editInfoButton
+AccountSettingsScreen,138,退出登录按钮文本,退出登录,logoutButton
+AccountSettingsScreen,163,未登录状态标题,未登录,notLoggedInTitle
+AccountSettingsScreen,167,未登录状态描述,登录账户以解锁更多功能和云同步服务。,notLoggedInDescription
+AccountSettingsScreen,179,本地账户登录按钮,本地账户,localAccountLogin
+AccountSettingsScreen,185,微信登录按钮,微信,wechatLogin
+AccountSettingsScreen,191,QQ登录按钮,QQ,qqLogin
+AccountSettingsScreen,197,微博登录按钮,微博,weiboLogin
+AccountSettingsScreen,203,Google登录按钮,Google,googleLogin
+AccountSettingsScreen,209,Facebook登录按钮,Facebook,facebookLogin
+AccountSettingsScreen,215,Twitter登录按钮,Twitter,twitterLogin
+AccountSettingsScreen,221,Apple登录按钮,Apple,appleLogin
+AccountSettingsScreen,296,尊贵会员显示格式,您已是尊贵的${controller.membershipDisplayName}用户,premiumMemberDisplayFormat
+UISettingsScreen,17,外观分组标题,外观,appearanceSectionTitle
+UISettingsScreen,27,主题模式标签,主题模式,themeModeLabel
+UISettingsScreen,38,选择主题标签,选择主题,selectThemeLabel
+UISettingsScreen,49,语言标签,语言,languageLabel
+UISettingsScreen,62,交易颜色分组标题,交易颜色,tradingColorSectionTitle
+UISettingsScreen,72,盈利颜色标签,盈利颜色,profitColorLabel
+UISettingsScreen,75,盈利颜色选择标题,盈利颜色,profitColorPickerTitle
+UISettingsScreen,84,亏损颜色标签,亏损颜色,lossColorLabel
+UISettingsScreen,87,亏损颜色选择标题,亏损颜色,lossColorPickerTitle
+UISettingsScreen,96,兑换颜色标签,兑换颜色,exchangeColorLabel
+UISettingsScreen,99,兑换颜色选择标题,兑换颜色,exchangeColorPickerTitle
+UISettingsScreen,108,股息颜色标签,股息颜色,dividendColorLabel
+UISettingsScreen,111,股息颜色选择标题,股息颜色,dividendColorPickerTitle
+UISettingsScreen,125,恢复默认设置按钮,恢复默认设置,resetToDefaultButton
+UISettingsScreen,155,浅色模式文本,浅色模式,lightModeText
+UISettingsScreen,157,深色模式文本,深色模式,darkModeText
+UISettingsScreen,159,跟随系统文本,跟随系统,followSystemText
+UISettingsScreen,195,自定义主题文本,自定义主题,customThemeText
+FeeModeSettingsScreen,无硬编码字符串,无硬编码字符串,无,none
+DataSettingsScreen,17,数据操作分组标题,数据操作,dataOperationSectionTitle
+DataSettingsScreen,22,备份管理分组标题,备份管理,backupManagementSectionTitle
+DataSettingsScreen,39,数据备份标题,数据备份,dataBackupTitle
+DataSettingsScreen,40,数据备份描述,将您的交易数据备份到安全位置,dataBackupDescription
+DataSettingsScreen,87,从外部文件恢复标题,从外部文件恢复,restoreFromExternalFileTitle
+DataSettingsScreen,91,从外部文件恢复描述,从您选择的备份文件中恢复数据,restoreFromExternalFileDescription
+DataSettingsScreen,146,导出备份文件标题,导出备份文件,exportBackupFileTitle
+DataSettingsScreen,150,导出备份文件描述,将数据库备份文件保存到您选择的位置,exportBackupFileDescription
+TagSettingsScreen,69,标签列表标题,标签列表,tagListTitle
+TagSettingsScreen,86,排序方式工具提示格式,排序方式 (${controller.sortBy.value} ${_getSortDirectionArrow(controller.ascending.value)}),sortMethodTooltipFormat
+TagSettingsScreen,89,使用次数排序文本,使用次数,usageCountSortText
+TagSettingsScreen,90,名称排序文本,名称,nameSortText
+TagSettingsScreen,91,创建日期排序文本,创建日期,creationDateSortText
+TagSettingsScreen,149,暂无标签提示,暂无标签,noTagsMessage
+AchievementSettingsScreen,144,隐藏成就工具提示格式,${TradeFlexStrings.hiddenAchievement.tr}\n${TradeFlexStrings.unknownAchievement.tr},hiddenAchievementTooltipFormat
+PortfolioSettingsScreen,34,投资组合管理标题,投资组合管理,portfolioManagementTitle
+PortfolioSettingsScreen,37,添加组合按钮文本,添加组合,addPortfolioButton
+PortfolioSettingsScreen,53,没有找到投资组合标题,没有找到投资组合,noPortfolioFoundTitle
+PortfolioSettingsScreen,54,没有找到投资组合描述,点击右上角的 "添加组合" 来创建您的第一个投资组合吧！,noPortfolioFoundDescription
+PortfolioSettingsScreen,135,已关闭芯片文本,已关闭,closedChipText
+PortfolioSettingsScreen,146,货币类型详情标签,货币类型:,currencyTypeDetailLabel
+PortfolioSettingsScreen,147,投资类型详情标签,投资类型:,investmentTypeDetailLabel
+PortfolioSettingsScreen,148,交易方向详情标签,交易方向:,tradingDirectionDetailLabel
+PortfolioSettingsScreen,149,手续费模式详情标签,手续费模式:,feeModeDetailLabel
+PortfolioSettingsScreen,152,不记录手续费文本,不记录手续费,noFeeRecordText
+PortfolioSettingsScreen,155,创建时间详情标签,创建时间:,creationTimeDetailLabel
+PortfolioSettingsScreen,166,编辑按钮文本,编辑,editButton
+PortfolioSettingsScreen,177,激活按钮文本,激活,activateButton
+PortfolioSettingsScreen,177,关闭按钮文本,关闭,closeButton
+PortfolioSettingsScreen,184,删除按钮文本,删除,deleteButton
+AboutPageScreen,17,支持与文档分组标题,支持与文档,supportAndDocumentationSectionTitle
+AboutPageScreen,27,更新历史标题,更新历史,updateHistoryTitle
+AboutPageScreen,28,更新历史描述,查看应用的版本更新记录,updateHistoryDescription
+AboutPageScreen,35,隐私协议标题,隐私协议,privacyPolicyTitle
+AboutPageScreen,36,隐私协议描述,了解我们如何处理您的数据,privacyPolicyDescription
+AboutPageScreen,43,服务条款与版权标题,服务条款与版权,termsOfServiceAndCopyrightTitle
+AboutPageScreen,44,服务条款与版权描述,阅读服务条款和版权信息,termsOfServiceAndCopyrightDescription
+AboutPageScreen,51,分享与评价分组标题,分享与评价,shareAndRateSectionTitle
+AboutPageScreen,61,分享应用标题,分享应用,shareAppTitle
+AboutPageScreen,62,分享应用描述格式,将 ${controller.appName.value} 分享给朋友,shareAppDescriptionFormat
+AboutPageScreen,69,评价我们标题,评价我们,rateUsTitle
+AboutPageScreen,70,评价我们描述,去应用商店给我们评分,rateUsDescription
+AboutPageScreen,101,版本信息格式,版本 ${controller.appVersion.value} (Build ${controller.buildNumber.value}),versionInfoFormat
+AboutPageScreen,109,检查更新按钮格式,${controller.isLoadingUpdateCheck.value ? '正在检查...' : '检查更新'},checkUpdateButtonFormat
+DesktopSubscriptionScreen,25,订阅专业版标题,订阅专业版,subscribeProVersionTitle
+DesktopSubscriptionScreen,137,Trade Flex专业版标题,Trade Flex 专业版,tradeFlexProVersionTitle
+DesktopSubscriptionScreen,146,专业版描述,解锁所有高级功能，提升您的交易效率,proVersionDescription
+DesktopSubscriptionScreen,188,功能对比标题,功能对比,featureComparisonTitle
+DesktopSubscriptionScreen,198,免费版标题,免费版,freeVersionTitle
+DesktopSubscriptionScreen,209,专业版标题,专业版,proVersionTitle
+DesktopSubscriptionScreen,223,无限交易记录功能对比,无限交易记录,unlimitedTradeRecordsFeature
+DesktopSubscriptionScreen,224,多投资组合管理功能对比,多投资组合管理,multiPortfolioManagementFeature
+DesktopSubscriptionScreen,225,实时价格更新功能对比,实时价格更新,realTimePriceUpdateFeature
+DesktopSubscriptionScreen,226,多持仓管理功能对比,多持仓管理,multiPositionManagementFeature
+DesktopSubscriptionScreen,227,数据导出功能对比,数据导出功能,dataExportFeature
+DesktopSubscriptionScreen,228,自定义主题功能对比,自定义主题,customThemeFeature
+DesktopSubscriptionScreen,314,选择订阅计划标题,选择订阅计划,selectSubscriptionPlanTitle
+DesktopSubscriptionScreen,325,月度计划标题,月度计划,monthlyPlanTitle
+DesktopSubscriptionScreen,327,每月周期文本,每月,monthlyPeriodText
+DesktopSubscriptionScreen,328,月度计划描述,适合短期使用,monthlyPlanDescription
+DesktopSubscriptionScreen,336,年度计划标题,年度计划,yearlyPlanTitle
+DesktopSubscriptionScreen,338,每年周期文本,每年,yearlyPeriodText
+DesktopSubscriptionScreen,339,年度计划描述,节省16%，最受欢迎,yearlyPlanDescription
+DesktopSubscriptionScreen,340,推荐徽章文本,推荐,recommendedBadgeText
+DesktopSubscriptionScreen,349,终身会员标题,终身会员,lifetimeMembershipTitle
+DesktopSubscriptionScreen,351,一次付费周期文本,一次付费,oneTimePaymentText
+DesktopSubscriptionScreen,352,终身会员描述,终身使用，最超值,lifetimeMembershipDescription
+DesktopSubscriptionScreen,535,立即订阅按钮文本,立即订阅,subscribeNowButton
+DesktopSubscriptionScreen,631,免费版状态文本,当前状态: 免费版,freeVersionStatusText
+DesktopSubscriptionScreen,634,终身版状态文本,当前状态: 终身版 (已激活),lifetimeVersionStatusText
+DesktopSubscriptionScreen,637,订阅状态文本格式,当前状态: ${userType.displayName} (已激活),subscriptionStatusTextFormat
+DesktopSubscriptionScreen,640,订阅过期状态文本,当前状态: 订阅已过期,subscriptionExpiredStatusText
+DesktopSubscriptionScreen,679,恢复购买按钮文本,恢复购买,restorePurchaseButton
+DesktopSubscriptionScreen,693,刷新状态按钮文本,刷新状态,refreshStatusButton
+DesktopSubscriptionScreen,712,使用条款按钮文本,使用条款,termsOfUseButton
+DesktopSubscriptionScreen,717,隐私政策按钮文本,隐私政策,privacyPolicyButton
+DesktopSubscriptionScreen,725,订阅协议文本,订阅即表示您同意我们的使用条款和隐私政策,subscriptionAgreementText
+DesktopSubscriptionScreen,745,无法获取产品信息错误,无法获取产品信息,cannotGetProductInfoError
+DesktopSubscriptionScreen,767,未找到对应产品错误,未找到对应的产品,productNotFoundError
+DesktopSubscriptionScreen,770,开始购买日志格式,开始购买产品: ${targetProduct.id},startPurchaseLogFormat
+DesktopSubscriptionScreen,777,购买成功标题,购买成功,purchaseSuccessTitle
+DesktopSubscriptionScreen,778,购买成功消息,您的订阅已激活！,purchaseSuccessMessage
+DesktopSubscriptionScreen,788,购买失败错误格式,${result.error ?? '购买失败'},purchaseFailedErrorFormat
+DesktopSubscriptionScreen,793,购买失败标题,购买失败,purchaseFailedTitle
+DesktopSubscriptionScreen,809,恢复购买对话框标题,恢复购买,restorePurchaseDialogTitle
+DesktopSubscriptionScreen,810,恢复购买对话框消息,正在恢复您的购买记录...,restorePurchaseDialogMessage
+DesktopSubscriptionScreen,819,恢复成功标题,恢复成功,restoreSuccessTitle
+DesktopSubscriptionScreen,820,恢复成功消息,您的购买记录已恢复！,restoreSuccessMessage
+DesktopSubscriptionScreen,827,恢复失败错误格式,${result.error ?? '恢复失败'},restoreFailedErrorFormat
+DesktopSubscriptionScreen,832,恢复失败标题,恢复失败,restoreFailedTitle
+DesktopSubscriptionScreen,846,状态刷新对话框标题,状态刷新,statusRefreshDialogTitle
+DesktopSubscriptionScreen,847,状态刷新对话框消息,正在刷新订阅状态...,statusRefreshDialogMessage
+DesktopSubscriptionScreen,855,刷新完成标题,刷新完成,refreshCompleteTitle
+DesktopSubscriptionScreen,856,刷新完成消息,订阅状态已更新！,refreshCompleteMessage
+DesktopSubscriptionScreen,865,刷新失败标题,刷新失败,refreshFailedTitle
+DesktopSubscriptionScreen,866,刷新失败消息,无法刷新订阅状态,refreshFailedMessage
+DesktopSubscriptionScreen,879,使用条款对话框标题,使用条款,termsOfUseDialogTitle
+DesktopSubscriptionScreen,881,使用条款内容,这里是使用条款的详细内容...,termsOfUseContent
+DesktopSubscriptionScreen,886,关闭按钮文本,关闭,closeButton
+DesktopSubscriptionScreen,897,隐私政策对话框标题,隐私政策,privacyPolicyDialogTitle

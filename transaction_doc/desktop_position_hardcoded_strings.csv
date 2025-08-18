@@ -1,0 +1,68 @@
+文件的类名,硬编码文字的行号,硬编码文字的说明,硬编码的文字,字符串常量建议（英文）
+PositionScreen,14,页面标题,持仓,positionPageTitle
+PositionGrid,47,显示已平仓复选框标签,显示已平仓,showClosedPositionsCheckbox
+PositionGrid,65,冷却等待按钮文本,等待${controller.cooldownRemainingSeconds}秒,waitingCooldownButtonText
+PositionGrid,77,获取最新价格按钮文本,获取最新价格,getLatestPriceButton
+PositionGrid,94,持仓详情工具提示,持仓详情,positionDetailsTooltip
+PositionGrid,100,保存列设置工具提示,保存列设置,saveColumnSettingsTooltip
+PositionGrid,129,多头持仓标签页,多头持仓,longPositionsTab
+PositionGrid,130,空头持仓标签页,空头持仓,shortPositionsTab
+EditMainPositionDialog,53,编辑主持仓对话框标题,编辑主持仓,editMainPositionDialogTitle
+EditMainPositionDialog,83,主持仓信息分组标题,主持仓信息,mainPositionInfoSectionTitle
+EditMainPositionDialog,96,主持仓名称标签,主持仓名称,mainPositionNameLabel
+EditMainPositionDialog,112,持仓方向显示格式,持仓方向: ${controller.mainPosition.value?.positionDirection == PositionDirection.long ? "多头" : "空头"},positionDirectionDisplayFormat
+EditMainPositionDialog,116,总持仓量显示格式,总持仓量: ${controller.mainPosition.value?.totalHoldCnt ?? "0"},totalHoldingAmountDisplayFormat
+EditMainPositionDialog,120,平均成本显示格式,平均成本: ${controller.mainPosition.value?.totalAvgPrice ?? "0"},averageCostDisplayFormat
+EditMainPositionDialog,138,取消按钮文本,取消,cancelButton
+EditMainPositionDialog,148,保存更改按钮文本,保存更改,saveChangesButton
+PositionDetailDialog,79,无活跃持仓提示,当前没有活跃的持仓,noActivePositionsMessage
+PositionDetailDialog,102,持仓详情对话框标题,持仓详情,positionDetailsDialogTitle
+PositionDetailDialog,159,总成本汇总卡片标题,总成本,totalCostSummaryTitle
+PositionDetailDialog,169,总市值汇总卡片标题,总市值,totalMarketValueSummaryTitle
+PositionDetailDialog,179,总利润汇总卡片标题,总利润,totalProfitSummaryTitle
+PositionDetailDialog,248,成本占比图表标题,成本占比,costRatioChartTitle
+PositionDetailDialog,288,市值占比图表标题,市值占比,marketValueRatioChartTitle
+PositionDetailDialog,469,持仓详情列表标题,持仓详情,positionDetailsListTitle
+PositionDetailDialog,484,资产代码表头,资产代码,assetCodeHeader
+PositionDetailDialog,485,方向表头,方向,directionHeader
+PositionDetailDialog,486,持仓数量表头,持仓数量,holdingQuantityHeader
+PositionDetailDialog,487,平均成本表头,平均成本,averageCostHeader
+PositionDetailDialog,488,最新价格表头,最新价格,latestPriceHeader
+PositionDetailDialog,489,总成本表头,总成本,totalCostHeader
+PositionDetailDialog,490,总市值表头,总市值,totalMarketValueHeader
+PositionDetailDialog,491,总利润表头,总ProfitHeader
+AssetBindingWidget,80,绑定真实资产标题,绑定真实资产,bindRealAssetTitle
+AssetBindingWidget,89,绑定资产工具提示,绑定真实资产可以自动获取实时价格和行情数据,bindAssetTooltip
+AssetBindingWidget,213,资产代码输入框标签,资产代码,assetCodeInputLabel
+AssetBindingWidget,214,资产代码输入框提示,例如：600000,assetCodeInputHint
+AssetBindingWidget,226,搜索按钮文本,搜索,searchButton
+AssetBindingWidget,275,搜索结果标题,搜索结果,searchResultsTitle
+AssetBindingWidget,287,关闭工具提示,关闭,closeTooltip
+AssetBindingWidget,298,未找到匹配资产提示,未找到匹配的资产,noMatchingAssetsMessage
+AssetBindingWidget,354,绑定按钮文本,绑定,bindButton
+AssetBindingWidget,424,解除绑定工具提示,解除绑定,unbindTooltip
+AssetBindingWidget,447,更新时间显示格式,更新于: ${controller.bindedAssetUpdateTime?.value ?? 'N/A'},updateTimeDisplayFormat
+AssetBindingWidget,466,绑定资产注意事项,注意：绑定资产后将自动获取最新价格数据用于计算浮动盈亏,bindAssetNotice
+AssetBindingWidget,496,手动设置价格标题,手动设置最新价格,manualSetPriceTitle
+AssetBindingWidget,515,手动价格输入框标签,手动输入最新价格,manualPriceInputLabel
+AssetBindingWidget,516,手动价格输入框提示,例如：10.55,manualPriceInputHint
+AssetBindingWidget,535,更新价格按钮文本,更新价格,updatePriceButton
+AssetBindingWidget,542,手动价格说明,手动设置的价格将用于计算持仓的浮动盈亏,manualPriceDescription
+AssetBindingWidget,586,当前设置价格显示格式,当前设置的价格: ${controller.manualPrice?.value},currentSetPriceDisplayFormat
+AssetBindingWidget,607,资产副标题格式,${asset.market.value} · ${assetType ?? ''} · ${price ?? '价格待更新'},assetSubtitleFormat
+EditSubPositionDialog,53,编辑子持仓对话框标题,编辑子持仓,editSubPositionDialogTitle
+EditSubPositionDialog,76,主持仓信息分组标题,主持仓信息,mainPositionInfoSectionTitle
+EditSubPositionDialog,89,主持仓名称标签,主持仓名称,mainPositionNameLabel
+EditSubPositionDialog,117,子持仓信息分组标题,子持仓信息,subPositionInfoSectionTitle
+EditSubPositionDialog,130,子持仓名称标签,子持仓名称,subPositionNameLabel
+EditSubPositionDialog,142,持仓量显示格式,持仓量: ${controller.subPosition.value?.holdCnt ?? "0"},holdingQuantityDisplayFormat
+EditSubPositionDialog,146,平均成本显示格式,平均成本: ${controller.subPosition.value?.avgPrice ?? "0"},averageCostDisplayFormat
+EditSubPositionDialog,150,实现盈亏显示格式,实现盈亏: ${controller.subPosition.value?.profitOrLoss ?? "0"},realizedProfitLossDisplayFormat
+EditSubPositionDialog,181,合并子持仓标题,合并子持仓,mergeSubPositionTitle
+EditSubPositionDialog,192,合并子持仓说明,选择要将当前子持仓合并到的目标子持仓：,mergeSubPositionDescription
+EditSubPositionDialog,200,目标子持仓标签,目标子持仓,targetSubPositionLabel
+EditSubPositionDialog,214,目标子持仓显示格式,${value.subPositionSymbol} (持仓: ${value.holdCnt}, 成本: ${value.avgPrice}),targetSubPositionDisplayFormat
+EditSubPositionDialog,223,合并操作警告,注意: 合并后，当前子持仓的数据将被合并到目标子持仓，并且当前子持仓将被删除。此操作不可撤销。,mergeOperationWarning
+EditSubPositionDialog,233,合并子持仓按钮文本,合并子持仓,mergeSubPositionButton
+EditSubPositionDialog,258,取消按钮文本,取消,cancelButton
+EditSubPositionDialog,268,保存更改按钮文本,保存更改,saveChangesButton

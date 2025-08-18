@@ -1,0 +1,71 @@
+文件的类名,硬编码文字的行号,硬编码文字的说明,硬编码的文字,字符串常量建议（英文）
+MobileWithdrawDepositScreen,16,入出金页面标题,入出金,withdrawDepositPageTitle
+MobileWithdrawDepositScreen,41,暂无投资组合提示,暂无投资组合,noPortfolioAvailable
+MobileWithdrawDepositScreen,50,请先创建投资组合提示,请先创建一个投资组合进行资金操作,pleaseCreatePortfolioForFundOperations
+MobileTransactionHistory,78,交易历史标题,交易历史,transactionHistoryTitle
+MobileTransactionHistory,252,编辑按钮文本,编辑,editButton
+MobileTransactionHistory,269,删除按钮文本,删除,deleteButton
+MobileTransactionHistory,285,成功删除提示,成功,successDeleteMessage
+MobileTransactionHistory,285,记录已删除提示,记录已删除,recordDeletedMessage
+MobileTransactionHistory,336,入金交易类型,入金,depositTransactionType
+MobileTransactionHistory,336,出金交易类型,出金,withdrawTransactionType
+MobileTransactionHistory,444,确认删除对话框标题,确认删除,confirmDeleteDialogTitle
+MobileTransactionHistory,445,确认删除对话框内容格式,确定要删除这条${record.isDeposit ? "入金" : "出金"}记录吗？此操作无法撤销。,confirmDeleteDialogContentFormat
+MobileTransactionHistory,449,取消按钮文本,取消,cancelButton
+MobileTransactionHistory,454,删除按钮文本,删除,deleteButton
+MobileTransactionHistory,474,暂无交易记录提示,暂无交易记录,noTransactionRecordsMessage
+MobileTransactionHistory,483,暂无出入金记录提示,您还没有任何出入金记录\n通过上方表单添加您的第一笔交易,noDepositWithdrawRecordsHint
+MobileDepositWithdrawForm,90,资金操作标题,资金操作,fundOperationsTitle
+MobileDepositWithdrawForm,136,入金操作标签,入金,depositOperationLabel
+MobileDepositWithdrawForm,174,出金操作标签,出金,withdrawOperationLabel
+MobileDepositWithdrawForm,198,出入金日期格式,yyyy年MM月dd日,depositWithdrawDateFormat
+MobileDepositWithdrawForm,215,金额输入标签,金额,amountInputLabel
+MobileDepositWithdrawForm,232,请输入金额验证,请输入金额,pleaseEnterAmountValidation
+MobileDepositWithdrawForm,235,请输入有效数字验证,请输入有效数字,pleaseEnterValidNumberValidation
+MobileDepositWithdrawForm,238,金额必须大于0验证,金额必须大于0,amountMustBeGreaterThanZeroValidation
+MobileDepositWithdrawForm,253,备注可选输入标签,备注（可选）,notesOptionalInputLabel
+MobileDepositWithdrawForm,254,备注输入提示,输入备注信息...,notesInputHint
+MobileDepositWithdrawForm,294,确认入金按钮文本,确认入金,confirmDepositButton
+MobileDepositWithdrawForm,294,确认出金按钮文本,确认出金,confirmWithdrawButton
+MobileEditTransactionBottomSheet,75,输入无效错误标题,输入无效,inputInvalidErrorTitle
+MobileEditTransactionBottomSheet,75,请输入有效金额错误信息,请输入有效的金额。,pleaseEnterValidAmountErrorMessage
+MobileEditTransactionBottomSheet,97,编辑入金记录标题格式,编辑${isDeposit ? "入金" : "出金"}记录,editDepositWithdrawRecordTitleFormat
+MobileEditTransactionBottomSheet,139,日期输入标签,日期,dateInputLabel
+MobileEditTransactionBottomSheet,150,金额输入标签,金额,amountInputLabel
+MobileEditTransactionBottomSheet,162,备注可选输入标签,备注 (可选),notesOptionalInputLabel
+MobileEditTransactionBottomSheet,173,保存更改按钮文本,保存更改,saveChangesButton
+MobileSummaryWidget,105,投资组合概览标题,投资组合概览,portfolioOverviewTitle
+MobileSummaryWidget,108,统计所有组合开关文本,统计所有组合,statisticsAllPortfoliosSwitch
+MobileSummaryWidget,143,现金仓位管理标题,现金仓位管理,cashPositionManagementTitle
+MobileSummaryWidget,157,请先选择统计货币提示,请先选择统计货币,pleaseSelectStatisticsCurrencyFirst
+MobileSummaryWidget,165,现金仓位管理标题,现金仓位管理,cashPositionManagementTitle
+MobileSummaryWidget,174,保存按钮文本,保存,saveButton
+MobileSummaryWidget,198,请选择统计货币提示,请选择统计货币,pleaseSelectStatisticsCurrency
+MobileSummaryWidget,227,所有投资组合标题,所有投资组合,allPortfoliosTitle
+MobileSummaryWidget,233,统计货币信息格式,统计货币: ${PortfolioUtils.getCurrencyLabel(statCurrency)},statisticsCurrencyInfoFormat
+MobileSummaryWidget,243,合计总净入金标签,合计总净入金,totalNetDepositLabel
+MobileSummaryWidget,264,加载投资组合信息提示,加载投资组合信息...,loadingPortfolioInfoMessage
+MobileSummaryWidget,290,币种信息格式,币种: ${PortfolioUtils.getCurrencyLabel(selectedPortfolio.currency)},currencyInfoFormat
+MobileSummaryWidget,300,总净入金标签,总净入金,totalNetDepositLabel
+MobileSummaryWidget,324,汇率获取失败提示,汇率获取失败,exchangeRateFailureMessage
+MobileSummaryWidget,344,统计货币选择器标签,统计货币,statisticsCurrencySelector
+MobileSummaryWidget,396,目标现金比例标签,目标现金比例,targetCashRatioLabel
+MobileSummaryWidget,468,现金余额异常警告标题,现金余额异常,cashBalanceAbnormalWarningTitle
+MobileSummaryWidget,477,现金余额异常说明,如果现金余额为负数，请检查入出金和持仓的价值是否合理。,cashBalanceAbnormalExplanation
+MobileSummaryWidget,482,负数现金余额可能表示说明,负数现金余额可能表示：入金记录不完整、持仓价值计算有误、出金记录异常,negativeCashBalancePossibleReasons
+MobileSummaryWidget,514,已达到目标现金比例提示,已达到目标现金比例,targetCashRatioAchievedMessage
+MobileSummaryWidget,515,建议取出或增加投资提示,建议取出或增加投资,suggestWithdrawOrIncreaseInvestmentMessage
+MobileSummaryWidget,515,建议存入或减少投资提示,建议存入或减少投资,suggestDepositOrDecreaseInvestmentMessage
+MobileSummaryWidget,528,当前总资产信息格式,当前总资产 $statCurrencySymbol ${totalAssetsValue.toStringAsFixed(2)},currentTotalAssetsInfoFormat
+MobileSummaryWidget,530,可操作金额信息格式,可操作金额: $statCurrencySymbol ${cashDifference.abs().toStringAsFixed(2)},operableAmountInfoFormat
+MobileSummaryWidget,531,需操作金额信息格式,需操作金额: $statCurrencySymbol ${cashDifference.abs().toStringAsFixed(2)},requiredOperationAmountInfoFormat
+MobileSummaryWidget,574,当前资金分配标签,当前资金分配,currentFundAllocationLabel
+MobileSummaryWidget,589,目标标记文本,目标,targetMarkerText
+MobileSummaryWidget,615,现金100%标签,现金 100%,cash100PercentLabel
+MobileSummaryWidget,616,现金比例格式,现金 ${(displayCashRatio * 100).toStringAsFixed(0)}%,cashRatioFormat
+MobileSummaryWidget,630,持仓100%标签,持仓 100%,position100PercentLabel
+MobileSummaryWidget,631,持仓比例格式,持仓 ${((1 - displayCashRatio) * 100).toStringAsFixed(0)}%,positionRatioFormat
+MobileSummaryWidget,661,现金金额信息格式,现金: $statCurrencySymbol ${cashAmount.toStringAsFixed(2)},cashAmountInfoFormat
+MobileSummaryWidget,668,持仓金额信息格式,持仓: $statCurrencySymbol ${investedAmount.toStringAsFixed(2)},positionAmountInfoFormat
+MobileSummaryWidget,688,暂无数据显示提示,暂无数据显示,noDataToDisplayMessage
+MobileSummaryWidget,693,请先添加记录提示,请先添加您的入金和持仓记录，以便我们为您分析和管理现金仓位。,pleaseAddRecordsForAnalysisHint

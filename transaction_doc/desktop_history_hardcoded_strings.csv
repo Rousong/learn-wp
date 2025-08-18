@@ -1,0 +1,55 @@
+文件的类名,硬编码文字的行号,硬编码文字的说明,硬编码的文字,字符串常量建议（英文）
+HistoryScreen,16,页面标题,历史记录,historyPageTitle
+HistoryScreen,66,历史记录标题,历史平仓记录,historicalClosedPositionsTitle
+HistoryFilterCard,21,筛选条件标题,筛选条件,filterConditionsTitle
+HistoryFilterCard,35,开始日期标签,开始日期,startDateLabel
+HistoryFilterCard,51,结束日期标签,结束日期,endDateLabel
+HistoryFilterCard,72,选择持仓标签,选择持仓,selectPositionLabel
+HistoryFilterCard,84,全部持仓选项,全部持仓,allPositionsOption
+HistoryFilterCard,89,持仓方向显示格式,${position.positionSymbol} - ${position.positionDirection == PositionDirection.long ? '多头' : '空头'},positionDirectionDisplayFormat
+HistoryFilterCard,106,持仓方向标签,持仓方向,positionDirectionLabel
+HistoryFilterCard,118,全部方向选项,全部,allDirectionsOption
+HistoryFilterCard,122,多头方向选项,多头,longDirectionOption
+HistoryFilterCard,126,空头方向选项,空头,shortDirectionOption
+HistoryFilterCard,146,清除按钮文本,清除,clearButton
+HistoryFilterCard,152,应用筛选按钮文本,应用筛选,applyFilterButton
+HistoryProfitLossPieChart,32,盈亏比例图表标题,历史盈亏比例,historicalProfitLossRatioTitle
+HistoryProfitLossPieChart,89,盈利金额图例,盈利金额,profitAmountLegend
+HistoryProfitLossPieChart,97,亏损金额图例,亏损金额,lossAmountLegend
+HistoryProfitLossPieChart,174,净盈亏标签,净盈亏:,netProfitLossLabel
+HistoryProfitLossPieChart,206,加载失败错误文本,加载数据失败,loadDataFailedError
+HistoryProfitLossPieChart,212,重试按钮文本,重试,retryButton
+HistoryProfitLossPieChart,233,无盈亏数据标题,暂无历史盈亏数据,noProfitLossDataTitle
+HistoryProfitLossPieChart,235,无数据描述,所选时间范围内无已关闭交易记录,noDataInSelectedRangeDescription
+HistoryWinRatePieChart,32,胜率图表标题,历史交易胜率,historicalTradingWinRateTitle
+HistoryWinRatePieChart,89,盈利交易图例,盈利交易,profitableTradesLegend
+HistoryWinRatePieChart,97,亏损交易图例,亏损交易,lossTradesLegend
+HistoryWinRatePieChart,104,总平仓次数标签,总平仓次数,totalClosedPositionsLabel
+HistoryWinRatePieChart,107,整体胜率标签,整体胜率,overallWinRateLabel
+HistoryWinRatePieChart,157,交易次数格式,${count} 笔交易,tradeCountFormat
+HistoryWinRatePieChart,216,加载失败错误文本,加载数据失败,loadDataFailedError
+HistoryWinRatePieChart,222,重试按钮文本,重试,retryButton
+HistoryWinRatePieChart,243,无胜率数据标题,暂无历史胜率数据,noWinRateDataTitle
+HistoryWinRatePieChart,245,无数据描述,所选时间范围内无已关闭交易记录,noDataInSelectedRangeDescription
+HistoryRecords,91,已关闭持仓标题,已关闭持仓,closedPositionsTitle
+HistoryRecords,106,无历史记录提示,没有历史持仓记录,noHistoryRecordsMessage
+HistoryRecords,141,找不到父持仓错误,找不到父持仓 ${subPosition.parentPositionId} 对于子持仓 ${subPosition.id},parentPositionNotFoundError
+HistoryRecords,147,多头方向文本,多头,longDirectionText
+HistoryRecords,147,空头方向文本,空头,shortDirectionText
+HistoryRecords,190,持仓时间格式,${openDateFormatted} → ${closeDateFormatted} (${holdingDays}天),positionDurationFormat
+HistoryRecords,195,均价和摊薄价格格式,均价: ${subPosition.avgPrice} / 摊薄: ${subPosition.dilutedAvgPrice},avgPriceAndDilutedPriceFormat
+HistoryRecords,203,净盈亏格式,净盈亏: ${subPosition.profitOrLoss},netProfitLossFormat
+HistoryRecords,236,交易记录标题,交易记录,tradeRecordsTitle
+HistoryRecords,237,具体交易记录标题,"${controller.selectedSubPosition.value!.subPositionSymbol}" 交易记录 (${controller.relatedTransactions.length}),specificTradeRecordsTitle
+HistoryRecords,255,选择持仓提示,请在左侧选择一个持仓,selectPositionPrompt
+HistoryRecords,263,无交易记录提示,没有找到 "${controller.selectedSubPosition.value!.subPositionSymbol}" 的交易记录,noTradeRecordsFoundMessage
+HistoryRecords,339,无备注信息默认文本,无备注信息,noNoteInfoDefault
+HistoryRecords,356,交易日期格式,交易于 ${controller.formatDate(trade.tradeDate)},tradeDateFormat
+HistoryRecords,372,恐惧贪婪指数格式,恐惧贪婪指数: ${fearGreedIndex},fearGreedIndexFormat
+HistoryRecords,460,入场价标签,入场价,entryPriceLabel
+HistoryRecords,463,当前均价标签,当前均价,currentAvgPriceLabel
+HistoryRecords,466,摊薄均价标签,摊薄均价,dilutedAvgPriceLabel
+HistoryRecords,476,数量标签,数量,quantityLabel
+HistoryRecords,479,手续费标签,手续费,feesLabel
+HistoryRecords,487,无备注信息判断,无备注信息,noNoteInfoCheck
+HistoryRecords,521,交易额格式,交易额: ${totalPrice.toStringAsFixed(2)},tradeAmountFormat

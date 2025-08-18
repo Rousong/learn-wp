@@ -1,0 +1,92 @@
+文件的类名,硬编码文字的行号,硬编码文字的说明,硬编码的文字,字符串常量建议（英文）
+OnboardingScreen,93,警告日志消息,警告: Onboarding page $index 没有找到匹配的 pageType 或配置不完整，将显示默认内容。 Config: $config,onboardingPageTypeNotFoundWarning
+OnboardingScreen,94,未知页面错误文本,未知页面类型或配置错误,unknownPageTypeOrConfigError
+OnboardingScreen,120,默认标题文本,无标题,noTitleDefault
+OnboardingScreen,177,上一步按钮文本,上一步,previousStepButton
+OnboardingScreen,196,下一步按钮文本,下一步,nextStepButton
+OnboardingController,60,用户许可协议标题,用户许可协议,userLicenseAgreementTitle
+OnboardingController,68,欢迎页面标题,欢迎使用 TradeFlex,welcomeToTradeFlexTitle
+OnboardingController,69,欢迎页面描述,开始记录和分析您的交易。,welcomePageDescription
+OnboardingController,75,跟踪交易页面标题,跟踪您的交易,trackYourTradesTitle
+OnboardingController,76,跟踪交易页面描述,轻松记录每一笔交易详情。,trackTradesPageDescription
+OnboardingController,82,分析表现页面标题,分析交易表现,analyzePerformanceTitle
+OnboardingController,83,分析表现页面描述,深入了解您的交易策略。,analyzePerformanceDescription
+OnboardingController,89,创建投资组合页面标题,创建投资组合,createPortfolioTitle
+OnboardingController,90,创建投资组合页面描述,设置您的第一个投资组合。,createPortfolioDescription
+OnboardingController,96,确认投资组合页面标题,确认您的投资组合,confirmPortfolioTitle
+OnboardingController,97,确认投资组合页面描述,检查所有设置。,confirmPortfolioDescription
+OnboardingController,131,加载费率模式失败日志,加载费率模式失败,loadFeeModeFailedLog
+OnboardingController,155,加载选中费率模式失败日志,加载选中费率模式失败 (ID: $id),loadSelectedFeeModeFailedLog
+OnboardingController,184,请输入投资组合名称错误,请输入投资组合名称,pleaseEnterPortfolioNameError
+OnboardingController,228,请输入投资组合名称错误,请输入投资组合名称,pleaseEnterPortfolioNameError
+OnboardingController,247,请输入投资组合名称错误,请输入投资组合名称,pleaseEnterPortfolioNameError
+OnboardingController,284,创建投资组合错误日志,创建投资组合错误,createPortfolioErrorLog
+OnboardingController,302,提示标题,提示,hintTitle
+OnboardingController,302,请先设置投资组合名称警告,请先设置投资组合名称,pleaseSetPortfolioNameFirstWarning
+OnboardingController,312,请输入投资组合名称错误,请输入投资组合名称,pleaseEnterPortfolioNameError
+OnboardingController,324,加载费率模式失败日志,加载费率模式失败,loadFeeModeFailedLog
+OnboardingController,348,创建投资组合错误日志,创建投资组合错误,createPortfolioErrorLog
+PortfolioCreationPage,80,必填标识文本,(必填),requiredFieldIndicator
+PortfolioCreationPage,163,创建投资组合标题,创建投资组合,createPortfolioTitle
+PortfolioCreationPage,172,创建页面描述,设置您的投资组合基本信息，以便更好地跟踪和管理您的交易记录,createPortfolioPageDescription
+PortfolioCreationPage,191,投资组合名称标签,投资组合名称,portfolioNameLabel
+PortfolioCreationPage,196,投资组合名称提示,例如：我的A股组合,portfolioNameHint
+PortfolioCreationPage,226,投资组合名称验证错误,请输入投资组合名称,portfolioNameValidationError
+PortfolioCreationPage,233,投资组合名称帮助文本,输入一个有意义的名称，便于您日后识别和管理,portfolioNameHelpText
+PortfolioCreationPage,239,币种标签,币种,currencyLabel
+PortfolioCreationPage,264,币种帮助文本,选择投资组合的主要币种，用于计算收益和显示资金,currencyHelpText
+PortfolioCreationPage,278,投资类型标签,投资类型,investmentTypeLabel
+PortfolioCreationPage,306,交易方向标签,交易方向,tradingDirectionLabel
+PortfolioCreationPage,332,手续费模式标签,手续费模式,feeModeLabel
+PortfolioCreationPage,343,不记录手续费选项,不记录手续费,noFeeRecordOption
+PortfolioCreationPage,358,管理交易费率链接,管理交易费率...,manageTradingRatesLink
+PortfolioCreationPage,369,手续费模式帮助文本,选择合适的手续费模式，或创建自定义费率,feeModeHelpText
+PortfolioCreationPage,406,上一步按钮文本,上一步,previousStepButton
+PortfolioCreationPage,433,下一步按钮文本,下一步,nextStepButton
+PortfolioConfirmationPage,69,确认投资组合标题,确认您的投资组合,confirmPortfolioTitle
+PortfolioConfirmationPage,77,确认页面描述,请确认以下信息是否正确。,confirmPageDescription
+PortfolioConfirmationPage,106,投资组合基本信息分组,投资组合基本信息,portfolioBasicInfoSection
+PortfolioConfirmationPage,111,投资组合名称标签,投资组合名称,portfolioNameLabel
+PortfolioConfirmationPage,119,币种标签,币种,currencyLabel
+PortfolioConfirmationPage,127,投资类型标签,投资类型,investmentTypeLabel
+PortfolioConfirmationPage,137,交易方向标签,交易方向,tradingDirectionLabel
+PortfolioConfirmationPage,146,不记录手续费文本,不记录手续费,noFeeRecordText
+PortfolioConfirmationPage,153,加载中文本,加载中... (ID: ${controller.selectedFeeModeId.value}),loadingText
+PortfolioConfirmationPage,159,手续费模式标签,手续费模式,feeModeLabel
+PortfolioConfirmationPage,184,提示标题,提示,hintTitle
+PortfolioConfirmationPage,195,设置后可修改提示,完成设置后，您可以随时在应用设置中修改这些选项。,canModifyAfterSetupHint
+PortfolioConfirmationPage,244,上一步按钮文本,上一步,previousStepButton
+PortfolioConfirmationPage,251,请输入投资组合名称错误,请输入投资组合名称,pleaseEnterPortfolioNameError
+PortfolioConfirmationPage,275,创建中按钮状态,创建中...,creatingButtonState
+PortfolioConfirmationPage,275,完成设置按钮文本,完成设置,completeSetupButton
+PortfolioConfirmationPage,363,未设置默认值,未设置,notSetDefault
+PortfolioConfirmationPage,377,编辑工具提示,编辑,editTooltip
+EulaPage,29,用户许可协议标题,终端用户许可协议 (EULA),endUserLicenseAgreementTitle
+EulaPage,56,重要提示开头,重要提示：\n,importantNoticeHeader
+EulaPage,60,协议前言,在使用本软件（以下简称"本软件"）之前，请您仔细阅读并理解本协议的全部内容。一旦您下载、安装、复制或以其他方式使用本软件，即表示您同意受本协议的约束。\n\n,agreementPreamble
+EulaPage,63,知识产权章节标题,1. 知识产权\n,intellectualPropertyChapterTitle
+EulaPage,67,知识产权内容,本软件及其所有内容，包括但不限于源代码、界面设计、数据库结构、图标、文档等，均为开发者 YU ZONGKUN 拥有并保留全部知识产权。\n未经书面授权，禁止对本软件进行复制、修改、反编译、逆向工程、出租、转售或用于任何商业目的。\n\n,intellectualPropertyContent
+EulaPage,70,授权范围章节标题,2. 授权范围\n,authorizationScopeChapterTitle
+EulaPage,74,授权范围内容,本软件仅授权终端用户在个人设备上进行非商业用途的使用。\n用户不得将本软件用于任何侵犯第三方权利或违反法律法规的行为。\n\n,authorizationScopeContent
+EulaPage,77,禁止行为章节标题,3. 禁止行为\n,prohibitedActsChapterTitle
+EulaPage,81,禁止行为开头,您不得：\n,prohibitedActsHeader
+EulaPage,83,禁止反编译条款,  • 对本软件进行反编译、反汇编、逆向工程或其他形式的还原分析；\n,noReverseEngineeringClause
+EulaPage,84,禁止删除版权条款,  • 删除或修改本软件中关于著作权、商标、专利等权利的声明；\n,noCopyrightRemovalClause
+EulaPage,85,禁止开发类似软件条款,  • 将本软件用于开发、传播相同或类似功能的软件；\n,noSimilarSoftwareDevelopmentClause
+EulaPage,86,禁止分发破解条款,  • 擅自分发、售卖、破解、修改本软件及其数据库文件。\n\n,noUnauthorizedDistributionClause
+EulaPage,88,数据和隐私章节标题,4. 数据和隐私\n,dataAndPrivacyChapterTitle
+EulaPage,92,数据和隐私内容,本软件为本地运行应用，所有数据均存储在用户设备中。\n开发者不收集、传输或存储用户的任何个人数据。\n用户应自行对数据的安全、备份和保管负责。\n\n,dataAndPrivacyContent
+EulaPage,95,免责声明章节标题,5. 免责声明\n,disclaimerChapterTitle
+EulaPage,99,免责声明内容,本软件按"现状"提供，开发者不对因使用或无法使用本软件而导致的任何损失或损害承担责任，包括但不限于数据丢失、交易损失或系统故障。\n\n,disclaimerContent
+EulaPage,102,协议变更章节标题,6. 协议变更与终止\n,agreementChangesChapterTitle
+EulaPage,106,协议变更内容,开发者有权在不通知用户的情况下修改本协议内容。\n若用户违反本协议条款，开发者有权终止其使用权限，并依法追究法律责任。\n\n,agreementChangesContent
+EulaPage,109,法律适用章节标题,7. 法律适用与争议解决\n,applicableLawChapterTitle
+EulaPage,113,法律适用内容,本协议适用中华人民共和国法律。\n若因本协议引起的任何争议，双方应协商解决，协商不成的，提交开发者所在地人民法院诉讼处理。\n\n,applicableLawContent
+EulaPage,116,协议接受条款,您一旦点击"我同意"或实际使用本软件，即视为已阅读、理解并同意接受本协议的全部条款。,agreementAcceptanceClause
+EulaPage,139,我同意按钮文本,我已阅读并同意上述协议,iAgreeButtonText
+WelcomePageContent,19,欢迎页面内容1,交易日记帮助您追踪和分析您的所有投资活动，提供专业的数据可视化和分析工具，使您能够深入了解自己的交易模式和表现。,welcomePageContent1
+WelcomePageContent,32,欢迎页面内容2,无论您是初学者还是专业交易员，本应用都能为您提供个性化的交易追踪体验。,welcomePageContent2
+TrackTradesPageContent,19,跟踪交易页面内容1,轻松记录每一笔交易，包括买入、卖出、分红等多种类型。详细记录交易时间、价格、数量以及相关费用。,trackTradesPageContent1
+TrackTradesPageContent,32,跟踪交易页面内容2,所有交易历史一目了然，随时查看您的投资组合变化和市场表现。,trackTradesPageContent2
+AnalyzePerformancePageContent,19,分析表现页面内容1,通过直观的图表和详细的统计数据，深入分析您的交易策略优势和不足。查看收益曲线、盈亏分布和持仓结构。,analyzePerformancePageContent1
+AnalyzePerformancePageContent,32,分析表现页面内容2,识别最佳交易时机和策略模式，优化您的投资决策过程，提高整体投资回报。,analyzePerformancePageContent2

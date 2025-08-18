@@ -1,0 +1,122 @@
+文件的类名,硬编码文字的行号,硬编码文字的说明,硬编码的文字,字符串常量建议（英文）
+StatisticsScreen,21,页面标题,统计分析,statisticsAnalysisPageTitle
+ProfitTrendLineChart,31,收益走势图表标题,收益走势,profitTrendChartTitle
+ProfitTrendLineChart,36,收益走势工具提示,显示所选时间范围内的盈亏变化趋势,profitTrendTooltip
+ProfitTrendLineChart,70,总盈亏图例,总盈亏,totalProfitLossLegend
+ProfitTrendLineChart,72,未实现盈亏图例,未实现盈亏,unrealizedProfitLossLegend
+ProfitTrendLineChart,74,已实现盈亏图例,已实现盈亏,realizedProfitLossLegend
+ProfitTrendLineChart,104,加载失败错误文本,加载数据失败,loadDataFailedError
+ProfitTrendLineChart,110,重试按钮文本,重试,retryButton
+ProfitTrendLineChart,130,无数据标题,暂无数据,noDataTitle
+ProfitTrendLineChart,132,无数据描述,所选时间范围内无收益数据,noDataDescription
+AssetTrendLineChart,31,资产趋势图表标题,资产趋势,assetTrendChartTitle
+AssetTrendLineChart,36,资产趋势工具提示,显示所选时间范围内的资产变化趋势,assetTrendTooltip
+AssetTrendLineChart,70,投资组合总值图例,投资组合总值,portfolioTotalValueLegend
+AssetTrendLineChart,72,持仓总成本图例,持仓总成本,positionTotalCostLegend
+AssetTrendLineChart,74,持仓总市值图例,持仓总市值,positionTotalMarketValueLegend
+AssetTrendLineChart,104,加载失败错误文本,加载数据失败,loadDataFailedError
+AssetTrendLineChart,110,重试按钮文本,重试,retryButton
+AssetTrendLineChart,130,无数据标题,暂无数据,noDataTitle
+AssetTrendLineChart,132,无数据描述,所选时间范围内无资产数据,noAssetDataDescription
+TimeRangeFilterWidget,37,时间范围选择标题,时间范围选择,timeRangeSelectionTitle
+TimeRangeFilterWidget,46,开始日期标签,开始日期,startDateLabel
+TimeRangeFilterWidget,61,结束日期标签,结束日期,endDateLabel
+TimeRangeFilterWidget,88,更新今日快照按钮,更新今日快照,updateTodaySnapshotButton
+TimeRangeFilterWidget,108,修改历史快照按钮,修改历史快照,modifyHistorySnapshotButton
+TimeRangeFilterWidget,128,快速选择时间范围标题,快速选择时间范围,quickSelectTimeRangeTitle
+TimeRangeFilterWidget,164,最近7天快速选择,最近7天,last7DaysQuickSelect
+TimeRangeFilterWidget,165,最近30天快速选择,最近30天,last30DaysQuickSelect
+TimeRangeFilterWidget,166,最近90天快速选择,最近90天,last90DaysQuickSelect
+TimeRangeFilterWidget,167,最近一年快速选择,最近一年,lastYearQuickSelect
+TimeRangeFilterWidget,197,选择快照日期帮助文本,选择需要修改的快照日期,selectSnapshotDateHelpText
+TimeRangeFilterWidget,198,确定按钮文本,确定,confirmButton
+TimeRangeFilterWidget,199,取消按钮文本,取消,cancelButton
+TimeRangeFilterWidget,206,未找到快照警告格式,没有找到 ${selectedDate.year}年${selectedDate.month}月${selectedDate.day}日 的快照数据,snapshotNotFoundWarningFormat
+TimeRangeFilterWidget,253,选择日期范围对话框标题,选择日期范围,selectDateRangeDialogTitle
+TimeRangeFilterWidget,370,取消按钮文本,取消,cancelButton
+TimeRangeFilterWidget,378,确定按钮文本,确定,confirmButton
+PortfolioAllocationPieChart,29,持仓占比图表标题,持仓占比,positionAllocationChartTitle
+PortfolioAllocationPieChart,34,持仓占比工具提示,持仓占比只显示选取区间的最新阶段的占比数据,positionAllocationTooltip
+PortfolioAllocationPieChart,112,总市值标签,总市值,totalMarketValueLabel
+PortfolioAllocationPieChart,170,加载失败错误文本,加载数据失败,loadDataFailedError
+PortfolioAllocationPieChart,176,重试按钮文本,重试,retryButton
+PortfolioAllocationPieChart,196,无数据标题,暂无数据,noDataTitle
+PortfolioAllocationPieChart,198,无投资组合快照描述,所选时间范围内无投资组合快照数据,noPortfolioSnapshotDescription
+PortfolioAllocationPieChart,213,无持仓占比数据标题,无持仓占比数据,noPositionAllocationDataTitle
+PortfolioAllocationPieChart,215,无持仓占比数据描述,所选时间范围的最新快照中未包含持仓占比数据,noPositionAllocationDataDescription
+ProfitLossPieChart,31,盈亏比例图表标题,盈亏比例,profitLossRatioChartTitle
+ProfitLossPieChart,35,盈亏比例工具提示,显示所选时间范围内的盈亏比例变化情况,profitLossRatioTooltip
+ProfitLossPieChart,87,盈利金额图例,盈利金额,profitAmountLegend
+ProfitLossPieChart,94,亏损金额图例,亏损金额,lossAmountLegend
+ProfitLossPieChart,200,加载失败错误文本,加载数据失败,loadDataFailedError
+ProfitLossPieChart,206,重试按钮文本,重试,retryButton
+ProfitLossPieChart,226,无盈亏数据标题,暂无盈亏数据,noProfitLossDataTitle
+ProfitLossPieChart,228,无交易记录描述,所选时间范围内无交易记录,noTradingRecordsDescription
+WinRatePieChart,31,交易胜率图表标题,交易胜率,tradingWinRateChartTitle
+WinRatePieChart,36,交易胜率工具提示,显示所选时间范围内的交易胜率变化情况,tradingWinRateTooltip
+WinRatePieChart,88,盈利交易图例,盈利交易,profitableTradesLegend
+WinRatePieChart,95,亏损交易图例,亏损交易,lossTradesLegend
+WinRatePieChart,102,总平仓次数统计,总平仓次数,totalClosePositionCount
+WinRatePieChart,105,整体胜率统计,整体胜率,overallWinRate
+WinRatePieChart,211,加载失败错误文本,加载数据失败,loadDataFailedError
+WinRatePieChart,217,重试按钮文本,重试,retryButton
+WinRatePieChart,237,无胜率数据标题,暂无胜率数据,noWinRateDataTitle
+WinRatePieChart,239,无交易记录描述,所选时间范围内无交易记录,noTradingRecordsDescription
+SnapshotHeatmapWidget,70,无快照图例标签,无快照,noSnapshotLegendLabel
+SnapshotHeatmapWidget,72,有快照图例标签,有快照，点击可编辑,hasSnapshotLegendLabel
+SnapshotHeatmapWidget,87,快照历史标题,快照历史,snapshotHistoryTitle
+SnapshotHeatmapWidget,107,滑动提示文本,左右滑动查看更多,swipeToViewMoreText
+SnapshotHeatmapWidget,128,年份显示格式,${_controller.currentYear.value}年,yearDisplayFormat
+TradingFrequencyChart,31,交易频率图表标题格式,交易频率 (${controller.getTimeRangeTypeName()}),tradingFrequencyChartTitleFormat
+TradingFrequencyChart,36,交易频率工具提示,显示所选时间范围内的交易次数统计,tradingFrequencyTooltip
+TradingFrequencyChart,78,买入交易工具提示格式,买入: ${barData.buyCount}笔,buyTradeTooltipFormat
+TradingFrequencyChart,80,卖出交易工具提示格式,卖出: ${barData.sellCount}笔,sellTradeTooltipFormat
+TradingFrequencyChart,173,总交易统计标签,总交易,totalTradesLabel
+TradingFrequencyChart,179,买入交易统计标签,买入交易,buyTradesLabel
+TradingFrequencyChart,185,卖出交易统计标签,卖出交易,sellTradesLabel
+FearGreedProfitChart,31,恐惧贪婪指数盈亏比率标题,恐惧贪婪指数盈亏比率,fearGreedProfitRatioChartTitle
+FearGreedProfitChart,35,恐惧贪婪指数工具提示,显示所选时间范围内恐惧贪婪指数与交易盈亏关系,fearGreedIndexTooltip
+FearGreedProfitChart,150,盈利工具提示格式,盈利: ¥${item.netProfitLoss.toStringAsFixed(2)},profitTooltipFormat
+FearGreedProfitChart,153,亏损工具提示格式,亏损: ¥${item.netProfitLoss.abs().toStringAsFixed(2)},lossTooltipFormat
+FearGreedProfitChart,156,盈亏平衡工具提示,盈亏: ¥0.00,breakEvenTooltip
+FearGreedProfitChart,196,交易笔数格式,${item.totalTrades}笔,tradeCountFormat
+FearGreedProfitChart,214,总盈利格式,总盈利: ¥${totalNetProfitLoss.toStringAsFixed(2)},totalProfitFormat
+FearGreedProfitChart,217,总亏损格式,总亏损: ¥${totalNetProfitLoss.abs().toStringAsFixed(2)},totalLossFormat
+FearGreedProfitChart,220,总盈亏格式,总盈亏: ¥0.00,totalProfitLossFormat
+FearGreedProfitChart,234,总览统计标题,总览统计,overviewStatisticsTitle
+FearGreedProfitChart,245,总交易次数标签,总交易次数,totalTradeCountLabel
+FearGreedProfitChart,252,总交易次数格式,${controller.getTotalVisibleTrades()}笔,totalTradeCountFormat
+FearGreedProfitChart,272,盈亏状态格式,${totalNetProfitLoss != 0 ? (totalNetProfitLoss > 0 ? '盈利' : '亏损') : '持平'},profitLossStatusFormat
+FearGreedProfitChart,297,加载失败错误文本,加载数据失败,loadDataFailedError
+FearGreedProfitChart,303,重试按钮文本,重试,retryButton
+FearGreedProfitChart,323,无数据标题,暂无数据,noDataTitle
+FearGreedProfitChart,325,无交易记录描述,所选时间范围内无交易记录,noTradingRecordsDescription
+SnapshotEditDialog,63,资产状况分组标题,资产状况,assetStatusSectionTitle
+SnapshotEditDialog,68,盈亏数据分组标题,盈亏数据,profitLossDataSectionTitle
+SnapshotEditDialog,73,交易次数统计分组标题,交易次数统计,tradeCountStatisticsSectionTitle
+SnapshotEditDialog,107,修改快照数据标题格式,修改 ${controller.getFormattedDate()} 快照数据,modifySnapshotDataTitleFormat
+SnapshotEditDialog,117,关闭工具提示,关闭,closeTooltip
+SnapshotEditDialog,145,自动计算相关字段标签,自动计算相关字段,autoCalculateRelatedFieldsLabel
+SnapshotEditDialog,191,累计入金金额标签,累计入金金额,cumulativeDepositAmountLabel
+SnapshotEditDialog,202,累计出金金额标签,累计出金金额,cumulativeWithdrawalAmountLabel
+SnapshotEditDialog,213,净入金金额标签,净入金金额,netDepositAmountLabel
+SnapshotEditDialog,229,总持仓成本标签,总持仓成本,totalPositionCostLabel
+SnapshotEditDialog,240,总市值标签,总市值,totalMarketValueLabel
+SnapshotEditDialog,251,现金余额标签,现金余额,cashBalanceLabel
+SnapshotEditDialog,266,总资产标签,总资产,totalAssetsLabel
+SnapshotEditDialog,278,收益率标签,收益率,returnRateLabel
+SnapshotEditDialog,304,未实现盈亏标签,未实现盈亏,unrealizedProfitLossLabel
+SnapshotEditDialog,316,已实现盈亏标签,已实现盈亏,realizedProfitLossLabel
+SnapshotEditDialog,327,总盈亏标签,总盈亏,totalProfitLossLabel
+SnapshotEditDialog,343,盈利金额标签,盈利金额,profitAmountLabel
+SnapshotEditDialog,354,亏损金额标签,亏损金额,lossAmountLabel
+SnapshotEditDialog,376,盈利次数标签,盈利次数,profitCountLabel
+SnapshotEditDialog,391,亏损次数标签,亏损次数,lossCountLabel
+SnapshotEditDialog,431,字段更新警告文本,注意：更新某些字段可能会导致与其他字段的计算结果不一致，建议同时更新相关联的字段或开启自动计算功能。,fieldUpdateWarningText
+SnapshotEditDialog,458,已修改字段数量格式,已修改 ${controller.changedFields.length} 个字段,modifiedFieldCountFormat
+SnapshotEditDialog,472,取消按钮文本,取消,cancelButton
+SnapshotEditDialog,497,保存修改按钮文本,保存修改,saveModificationsButton
+SnapshotEditDialog,555,不能为空验证错误,不能为空,cannotBeEmptyValidationError
+SnapshotEditDialog,562,请输入有效数字验证错误,请输入有效的数字,pleaseEnterValidNumberValidationError
+SnapshotEditDialog,568,不能为空验证错误,不能为空,cannotBeEmptyValidationError
+SnapshotEditDialog,572,请输入有效整数验证错误,请输入有效的整数,pleaseEnterValidIntegerValidationError
