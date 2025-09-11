@@ -1,0 +1,125 @@
+#!/usr/bin/env python
+"""
+支付验证API测试脚本
+"""
+import os
+import sys
+import django
+import json
+from datetime import datetime
+
+# 设置Django环境
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tradeFlexAPI.settings')
+django.setup()
+
+from payment_verification.services import verify_payment, get_user_subscription_status
+from payment_verification.models import PaymentRecord, UserSubscription
+
+def test_payment_verification():
+    """测试支付验证功能"""
+    print("=== 支付验证API测试 ===\n")
+    
+    # 测试1: iOS支付验证
+    print("1. 测试iOS支付验证...")
+    ios_result = verify_payment(
+        platform='ios',
+        receipt_data='test_ios_receipt_data',
+        user_id='test_user_ios',
+        product_id='ios_monthly_subscription'
+    )
+    print(f"iOS验证结果: {json.dumps(ios_result, indent=2, ensure_ascii=False, default=str)}\n")
+    
+    # 测试2: Android支付验证
+    print("2. 测试Android支付验证...")
+    android_receipt = json.dumps({
+        'purchaseToken': 'test_purchase_token',
+        'packageName': 'com.tradeflex.app',
+        'productId': 'android_monthly_subscription',
+        'purchaseTime': int(datetime.now().timestamp() * 1000),
+        'orderId': 'test_order_id'
+    })
+    android_result = verify_payment(
+        platform='android',
+        receipt_data=android_receipt,
+        user_id='test_user_android',
+        product_id='android_monthly_subscription'
+    )
+    print(f"Android验证结果: {json.dumps(android_result, indent=2, ensure_ascii=False, default=str)}\n")
+    
+    # 测试3: Windows支付验证
+    print("3. 测试Windows支付验证...")
+    windows_receipt = json.dumps({
+        'productId': 'windows_yearly_subscription',
+        'transactionId': 'test_windows_transaction',
+        'purchaseDate': datetime.now().isoformat()
+    })
+    windows_result = verify_payment(
+        platform='windows',
+        receipt_data=windows_receipt,
+        user_id='test_user_windows',
+        product_id='windows_yearly_subscription'
+    )
+    print(f"Windows验证结果: {json.dumps(windows_result, indent=2, ensure_ascii=False, default=str)}\n")
+    
+    # 测试4: macOS支付验证
+    print("4. 测试macOS支付验证...")
+    macos_result = verify_payment(
+        platform='macos',
+        receipt_data='test_macos_receipt_data',
+        user_id='test_user_macos',
+        product_id='macos_lifetime_purchase'
+    )
+    print(f"macOS验证结果: {json.dumps(macos_result, indent=2, ensure_ascii=False, default=str)}\n")
+    
+    # 测试5: 查询用户订阅状态
+    print("5. 测试用户订阅状态查询...")
+    for user_id in ['test_user_ios', 'test_user_android', 'test_user_windows', 'test_user_macos']:
+        status = get_user_subscription_status(user_id)
+        print(f"用户 {user_id} 订阅状态: {json.dumps(status, indent=2, ensure_ascii=False, default=str)}")
+    
+    print("\n=== 数据库记录查询 ===")
+    
+    # 查看支付记录
+    payment_records = PaymentRecord.objects.all()
+    print(f"\n总共创建了 {payment_records.count()} 条支付记录:")
+    for record in payment_records:
+        print(f"- {record.platform} | {record.product_type} | {record.transaction_id} | 状态: {record.status}")
+    
+    # 查看用户订阅
+    user_subscriptions = UserSubscription.objects.all()
+    print(f"\n总共创建了 {user_subscriptions.count()} 个用户订阅:")
+    for subscription in user_subscriptions:
+        print(f"- 用户: {subscription.user_id} | 付费: {subscription.is_premium} | 类型: {subscription.subscription_type}")
+
+def test_error_cases():
+    """测试错误情况"""
+    print("\n=== 错误情况测试 ===\n")
+    
+    # 测试不支持的平台
+    print("1. 测试不支持的平台...")
+    try:
+        result = verify_payment(
+            platform='unsupported_platform',
+            receipt_data='test_data'
+        )
+        print(f"不支持平台的结果: {json.dumps(result, indent=2, ensure_ascii=False, default=str)}")
+    except Exception as e:
+        print(f"预期的错误: {e}")
+    
+    # 测试无效的Android收据
+    print("\n2. 测试无效的Android收据...")
+    invalid_android_result = verify_payment(
+        platform='android',
+        receipt_data='invalid_json_data'
+    )
+    print(f"无效Android收据结果: {json.dumps(invalid_android_result, indent=2, ensure_ascii=False, default=str)}")
+
+if __name__ == '__main__':
+    try:
+        test_payment_verification()
+        test_error_cases()
+        print("\n✅ 所有测试完成!")
+    except Exception as e:
+        print(f"\n❌ 测试失败: {e}")
+        import traceback
+        traceback.print_exc()
